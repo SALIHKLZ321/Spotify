@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.container{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.himage{
+    padding-left: 95px;
+    height: 40px;
+}
+.header h2{
+    font-weight: 550;
+    width: 100px;
+    padding-top: 8px;
+    color: aliceblue;
+}
+.logo{
+    width: 614px;
+}
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header p{
+    font-weight: lighter;
+    height: 1.5;
+}
+
+.hr{
+    color:aliceblue;
+    padding-top: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    column-gap: 34px;
+}
+
+.hr a:hover{
+    color: rgb(0, 128, 38);
+}
+.top{
+    width:100%;
+    height:615px;
+    background: #993399;
+    color: aliceblue;
+    padding-left: 105px;
+    display: flex;
+    flex-direction: row;
+}
+.topdiv{
+    width: 53%;
+    padding-top: 90px;
+}
+.topdiv h5{
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+.topdiv h1{
+    
+    font-weight: bolder;
+    font-size: 60px;
+}
+.topdiv h2{
+    font-weight: 500;
+    line-height: 35px;
+}
+.topdiv button{
+    width: 210px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.topdiv button:hover{
+    width: 215px;
+    height: 50px;
+    cursor: pointer;
+}
+.topdiv p{
+    font-size: 13px;
+}
+.topdiv a{
+    color: aliceblue;
+}
+.topleft{
+    padding-left: 18px;
+    padding-top: 118px;
+}
+.topleft img{
+    width: 400px;
+}
+.mid{
+    background-color: rgb(41, 65, 171);
+    width: 100%;
+    height: 500px;
+    background-image: url("/image/mid.svg");
+    padding-left: 105px;
+    padding-top: 90px;
+    color: #1ed760;
+}
+.mid h5{
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+.mid h1{
+    
+    font-weight: bolder;
+    font-size: 60px;
+}
+.mid h2{
+    font-weight: 500;
+    line-height: 35px;
+}
+.mid button{
+    width: 210px;
+    height: 50px;
+    background-color: #1ed760;
+    color:rgb(41, 65, 171);
+    font-weight: bolder;
+    border-radius: 30px;
+    border: none;
+    font-size: medium;
+    
+}
+.mid button:hover{
+    width: 215px;
+    height: 50px;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
+    column-gap: 50px;
+    
+    
+    
+    
+}
+.infooter{
+    padding-left: 80px;
+    padding-top: 100px;
+  max-width: 90%;
+  
+  max-height: 90%;
+  display: flex;
+  flex-direction: row;
+
+    
+}
+.infooter h2{
+    font-weight: 550;
+    width: 100px;
+    
+    color: aliceblue;
+}
+.infooter img{
+    height: 40px;
+    color: grey;
+}
+.ftr{
+    display: flex;
+    
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.ftr h5{
+    color: dimgray;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.ftr a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.ftr a:hover{
+    color: #1ed760;
+}
+.icon{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.icon i{
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    color: aliceblue;
+    padding: 6px;
+    padding-left: 8px;
+}
+.icon div{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i:hover{
+    color: #1ed760;
+}
+.lower{
+    
+    padding-left: 80px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+
+}
+.inlwr{
+    padding-top: 15px;
+    width: 70%;
+    font-size: small;
+    
+    
+}
+.lower a{
+    color: dimgray;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.lower a:hover{
+    color: #1ed760;
+}
+.end{
+    padding-left: 200px;
+}
+.inlwr i{
+    color: white;
+}
+.inlwr p{
+    color: dimgray;
+}
+
